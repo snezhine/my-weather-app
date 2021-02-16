@@ -19,14 +19,11 @@
 	
     <div class="container">
 			<section class="weather-app">
-				<div class="row">
-					<div class="col-sm-12">
-						<h3 id="current-date"></h3>
-					</div>
-				</div>				
+							
 				<div class="row">
 					<div class="col-6">
 						<h2 id="displayed-city"></h2>
+						<h3 id="current-date"></h3>
 						<h3 id="current-time"></h3>
 						<h1 id="current-temp"></h1>
 						<div class="btn-group btn-group-toggle" data-toggle="buttons">
@@ -49,23 +46,27 @@
                     		</label>
                   		</div>
 					</div>
-					<div class="col">
-						<ul>
-							<li id=temperature-min></li>
-							<li id=temperature-max></li>
-							<li id=current-wind></li>
-							<li id=current-humidity></li>
-							<li id=sunrise></li>
-							<li id=sunset></li>					
-						</ul>
-					</div>
 					<div class="col card text-center" id="today-card">
 						<div class="card-body">
 							<p class="card-text">today</p>
 							<i class="fas fa-sun" id="today-icon"></i>
 							<p class="card-text" id=description>sunny</p>
 						</div>
-					</div>	
+					</div>
+					<div class="col text-right">
+						<div class="card-body footer" id="today-values">
+							<ul>
+								<li id=sunrise></li>
+								<li id=sunset></li></br>
+								<li id=temperature-min></li>
+								<li id=temperature-max></li>
+								<li id=current-wind></li>
+								<li id=current-humidity></li>										
+							</ul>
+						</div>
+						
+					</div>
+	
 				</div>	
 				<form id="search-form">
 					<div class="form row">

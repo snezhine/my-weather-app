@@ -30,11 +30,14 @@ li {
 li {
   list-style: none;
   position: relative;
-  right: 30px;
+  left: 0;
 }
 i {
   font-size: 55px;
   margin-bottom: 20px;
+}
+ul {
+  padding: 0;
 }
 
 small {
@@ -43,7 +46,7 @@ small {
 }
 
 form {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .weather-app {
@@ -71,10 +74,17 @@ form {
 }
 
 #today-icon {
-  font-size: 105px;
+  font-size: 100px;
   color: #fa7655;
 }
 #today-card {
   position: relative;
-  top: -50px;
+  top: 0;
+}
+#today-values {
+  padding-right: 0;
+}
+
+#current-date {
+  margin-bottom: 5px;
 }
