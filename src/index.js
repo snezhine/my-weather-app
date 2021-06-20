@@ -148,7 +148,7 @@ function search(city) {
   let apiEndPoint = "https://api.openweathermap.org/data/2.5/weather?";
   let apiCity = `${apiEndPoint}q=${city}&appid=${key}&units=${units}`;
   //const axios = require("axios").default; when to use this?
-  console.log(`getting data for ${city} in ${units} uinits`);
+  console.log(`getting data for ${city} in ${units} units`);
   console.log(apiCity);
   axios.get(apiCity).then(showWeather);
 }
